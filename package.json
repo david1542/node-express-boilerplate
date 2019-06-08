@@ -1,0 +1,31 @@
+{
+  "name": "cinematic-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon bin/index.js",
+    "start": "node bin/index.js",
+    "test": "set NODE_ENV=testing&&jest --watch --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "lodash.merge": "^4.6.1",
+    "mongoose": "^5.2.12",
+    "socket.io": "^2.2.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^4.0.2"
+  }
+}
