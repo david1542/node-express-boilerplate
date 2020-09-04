@@ -17,7 +17,7 @@
     "cors": "^2.8.4",
     "crypto": "^1.0.1",
     "express": "^4.16.4",
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "mongoose": "^5.2.12",
     "socket.io": "^2.2.0",
     "winston": "^3.2.1"
